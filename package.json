@@ -1,0 +1,21 @@
+{
+  "name": "klib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html --no-cache",
+    "build": "tsup src/index.ts --dts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@depeng9527/k-data": "^1.0.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "tsup": "^4.14.0",
+    "typescript": "^4.3.5"
+  }
+}
